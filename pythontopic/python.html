@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="python.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="mainTitle">Flash Cards</h1>
+           
+            <button class="btn" id="menuButton">
+                <span class="icon">
+                    <svg viewBox="0 0 175 80" width="40" height="40">
+                        <rect width="80" height="15" fill="#ff8906" rx="10"></rect>
+                        <rect y="30" width="80" height="15" fill="#ff8906" rx="10"></rect>
+                        <rect y="60" width="80" height="15" fill="#ff8906" rx="10"></rect>
+                    </svg>
+                </span>
+                <span class="text">MENU</span>
+            </button>
+           
+        </header>
+        <h2 class="pythonTopic center"><span class="goBack"> <</span>Topic: Python></h2> 
+        <section class="theCard">
+             <p class="flashQuestion"><span class="textOfQuestion">What<i> Keyword </i> is used to declare a variable in Python, and what are the different types of variable declaration keywords</span></p>
+
+                <p class="textAnswer" ><span class="answer hidden">Variable names in Python are declared using keywords such as 'int', 'float', 'str', 'bool', and 'None'.</span></p> 
+            <nav id="menu">
+                <ul>
+                    <a href="/main/main.html" target="_blank"><ul class="icon-container">
+                        <i class="fa fa-home iconMenu fa-3x" aria-hidden="true"></i>
+                        <<div class="hover-text">Home</div></a>
+                    </ul>
+                    <ul class="icon-container">
+                        <ul><a href="https://github.com/Affilen" target="_blank"><i class="fa fa-github" style="font-size:48px;color: white;"></i></a>
+                        <div class="hover-github">Github</div></ul>
+                        
+                    </ul>
+                    <ul class="icon-container">
+                        <ul><a href="https://www.linkedin.com/in/dominik-kondrzycki-93096b2a1/" target="_blank"><i class="fa fa-linkedin" style="font-size: 40px; color: white;"></i></a></ul>
+                        <div class="hover-linkedin">LinkedIn</div>
+                    </ul>
+                    </ul>
+                </ul>
+            </nav> 
+
+            <div class="correctOrNo">
+            <p class="textCorrect"></p>
+        </div>
+        </section>  
+        <div class="inputanswers">
+            <input class="inputInside" type="text" placeholder="Type in your answer">
+            <!-- <p>Answer:<span class="whatAnswer">Correct!</span></p> -->
+        </div>
+        
+       <span><</span> <button class="button2">Submit</button><span>></span>
+        
+        
+    </main>
+
+<script src="python.js"></script>
+</body>
+</html>

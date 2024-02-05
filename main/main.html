@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+    <body>
+      
+        <h1 class="mainTitle">Flash Cards</h1>
+     
+        <button class="btn" id="menuButton">
+            <span class="icon">
+                <svg viewBox="0 0 175 80" width="55" height="60">
+                    <rect width="80" height="15" fill="#ff8906" rx="10"></rect>
+                    <rect y="30" width="80" height="15" fill="#ff8906" rx="10"></rect>
+                    <rect y="60" width="80" height="15" fill="#ff8906" rx="10"></rect>
+                </svg>
+            </span>
+            <div class="menu-hidden">
+                <nav id="menu">
+                <ul class="menu-grid">
+                    <li class="icon-container">
+                      <a href="https://github.com/Affilen" target="_blank">
+                        <div class="hover-github">Github</div>
+                      </a>
+                    </li>
+                    <li class="icon-container">
+                      <a href="https://www.linkedin.com/in/dominik-kondrzycki-93096b2a1/" target="_blank">
+                        <div class="hover-linkedin">LinkedIn</div>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              
+        </button>
+        <h2 class="categoryTitle" id="categoryTitle"> Pick your Category></h2>
+        <i class="fas fa-arrow-down fa-3x"></i>
+
+    <main>
+    <div class="container">
+      <!-- WEB DEVELOPMENT -->
+      <a href="/webtopic/webTopic.html" target="_blank" class="tileButtons"><div class="firstTile" id="tile"><p class="Webcategory">Web Development</p></div></a>
+        <!-- PYTHON  -->
+        <a href="/pythontopic/python.html" target="_blank" class="tileButtons"><div class="secondTile" id="tile"><p class="Pycategory">Python</p></div></a>
+        <!--  REACT -->
+        <a href="/reacttopic/react.html" target="_blank" class="tileButtons"><div class="thirdTile" id="tile"><p class="Recategory">React</p></div></a>
+    </div>
+</main>
+    <script src="main.js"></script>
+</body>
+</html>

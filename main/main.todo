@@ -1,0 +1,27 @@
+Idea:
+    The idea for this project is to have a main website or like a front website simple one with 3 main tiles in the middle. each of those tiles will be a category for the flash card game each of those categories will  have 15 questions (for html,css,js will be 5 each)3 of those website will look accordingly to their topic some of them will have easter eggs 
+HTML: 
+    ✔ have a html,css,js file for it @done (12/9/2023, 3:11:19 AM)
+    ✔ have 3 main tiles for webtopic,pythontopic,reacttopic for those @done (12/9/2023, 3:11:21 AM)
+    ✔ each tile after a click will forward to a webtopic,pythontopic,reacttopic. @done (12/10/2023, 2:20:23 AM)
+    ✔ menu button @done (12/9/2023, 3:43:05 AM)
+    ✔ in menu button add a category called "leaderboard" @done (12/10/2023, 2:49:36 AM)
+    ✔ create python and react pages @done (12/13/2023, 7:16:54 AM)
+    ✔ figure out how can you make the web,python,react as a a href links without destroying them @done (12/13/2023, 7:08:41 AM)
+    ✔ BUG repair the buttons @done (12/14/2023, 2:14:13 AM)
+CSS:
+    ✔ play with it and leave your comfort zone for it @done (12/14/2023, 2:29:07 AM)
+    ✔ create a color pallet for this website @done (12/10/2023, 5:31:00 AM)
+    ✔ on hover for tiles add a gif with according topic for example for python add a snake snaking @done (12/12/2023, 3:54:38 AM)
+    ✔ add animation @done (12/10/2023, 5:31:04 AM)
+    ✔ add interesting but not painful to eyes background @done (12/12/2023, 6:11:19 AM)
+    ✔ change the looks of the menu make it look like a "dashboard" like  (color = 247, 219, 167 rgb) @done (12/10/2023, 5:30:46 AM)
+    ✔ be more creative with layout maybe or the menu button @done (12/14/2023, 2:29:08 AM)
+    ✔ add css to python,react pages @done (12/16/2023, 3:21:33 AM)
+    ✔ what if I made this website have a "old" type of theme like the one in guess my number game from the course (check later for the css of it ) @done (12/12/2023, 5:23:34 AM)
+    ✘ how about making a flashlight as a logo the flashlight is pointing at the "Flash Cards" text and you can press the flashlight to turn it on at it will turn the black text to white like the middle of it @cancelled (12/14/2023, 2:21:25 AM)
+     
+JS:
+    ✔ add functionality with menu button @done (12/10/2023, 2:49:39 AM)
+
+    

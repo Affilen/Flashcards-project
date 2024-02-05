@@ -1,0 +1,81 @@
+Project Idea:
+    The idea is to create a basic looking website not a lot of going on. There will be 
+        ✔ Highscore @done (12/2/2023, 3:56:32 PM)
+        ----------------
+        ✔ Current score @done (12/2/2023, 3:56:33 PM)
+        ----------------
+        ✔ the actuall flash cards with questions @done (12/2/2023, 3:56:34 PM)
+        ---------------- 
+        ✔ input for the answer @done (12/2/2023, 3:56:35 PM)
+        ----------------  
+        ✔ you have 3 attempts to get the correct answer @done (12/5/2023, 2:53:00 AM)
+        ----------------
+        ✔ also there will be categories at least 3 for the flash cards first will be webdevelopment so questions about JS, HTML, CSS @done (12/3/2023, 9:32:03 PM)
+        ----------------
+        ✔ second category will be python questions @done (12/3/2023, 9:32:02 PM)
+        ----------------
+        ✔ third category will be React @done (12/3/2023, 9:32:04 PM)
+        ----------------
+        ✔ do some sorting of css and JS @done (12/14/2023, 6:18:21 AM)
+        ----------------
+        ✔ add a main site with 3 blocks/tiles of categories @done (12/14/2023, 6:18:19 AM)
+HTML for the project:
+    ✔ add highscore @done (12/2/2023, 4:16:12 PM)
+    ----------------
+    ✔ current score @done (12/2/2023, 4:16:13 PM)
+    ----------------
+    ✔ place for flashcards @done (12/2/2023, 7:41:50 PM)
+    ----------------
+    ✔ input for the answer @done (12/2/2023, 4:16:15 PM)
+    ----------------
+    ✔ Add footer @done (12/3/2023, 9:48:58 PM)
+    ----------------
+
+CSS for the project: 
+    ----------------
+    ✔ clear font @done (12/3/2023, 9:31:05 PM)
+    ----------------
+    ✔ work on the UI @done (12/14/2023, 6:18:49 AM)
+        ✔ google some quizes websites or google flash cards game or something like that to check how the UI look and combine it with colors @done (12/14/2023, 6:18:49 AM)
+    ----------------
+    ✔ work on colors @done (12/14/2023, 6:18:51 AM)
+        ✔ pick colors that look the best for this site (do some research) @done (12/14/2023, 6:18:51 AM)
+    ----------------
+    ✔ add when the answer is correct the hover on every button changes to green some of the fonts are also turned green / do the opposite for incorrect answer @done (12/14/2023, 6:18:58 AM)
+    ----------------
+    ✔ add github icons and linkedin @done (12/4/2023, 11:38:43 PM)
+    ----------------
+    ✔ add text to home,categories,github,linkedin on hover when hovering icons after clicking menu @done (12/4/2023, 11:38:30 PM)
+    ---------------- 
+    ✔ change placement of textAnswer @done (12/15/2023, 4:17:52 AM)
+    ----------------
+    ☐ work on the css for answer and correct/incorrect text for python page, web development page and react page 
+    ----------------
+    ☐ maybe work on the main page some more add little tweaks or something 
+Javascript for the project:
+    ✔ after correct answer there is a writting "correct answer" / after incorrect answer there is writting "Incorrect answer" @done (12/5/2023, 2:52:55 AM)
+    ----------------
+    ✔ implement that after 3 incorrect answers the cards shows the answer @done (12/6/2023, 2:50:15 AM)
+    ----------------
+    ✔ implement buttons functionality @done (12/5/2023, 2:41:08 AM)
+    ----------------
+    ✔ add a way that after succesfully submiting the answer question changes the input for text is empty the score increases by 1 @done (12/5/2023, 2:49:12 AM)
+    ----------------
+    ✔ add more questions to Javascript @done (12/14/2023, 6:26:47 AM)
+    ----------------
+    ☐ hard code custom checkAnswer() logic 
+        ☐ modify the checkAnswer() function to include custom logic 
+        ☐ implement custom logic for flexible answer comparison
+    ----------------
+    ----------------
+    ✔ change color of other stuff @done (12/14/2023, 6:26:52 AM)
+    ----------------
+    ✔ that after 3 tries the answer shows but after submiting the correct answer player can still play @done (12/15/2023, 4:17:49 AM)
+    ----------------
+    ✔ add more questions to web development page @done (12/15/2023, 4:09:27 AM)
+    ----------------
+    ✔ if not enough time work on the correct answer that  shows after 3 incorrect tries @done (12/18/2023, 12:53:05 AM)
+    ✔ repair the shown answer after 3 incorrect tries @done (12/18/2023, 12:53:15 AM)
+    
+
+

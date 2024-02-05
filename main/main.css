@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+ }
+/* HIDDEN  */
+.hidden{
+  display: none;
+ }
+@font-face {
+    font-family:"fonte" ;
+    src: url(fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+ }
+html{
+    font-family: "fonte";
+    color: rgb(255, 255, 255);
+    width: 100%;
+  height: 100%;
+  }
+body {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #0f0e17;
+  z-index: -1;
+  overflow: hidden;
+  
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
+ }
+h1{
+    color: #fffffe;
+    font-size: 70px;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    padding-top: 10px;
+ }
+h2{
+    font-size: 43px;
+    text-align: center;
+    padding-top: 10px;
+ }
+i{
+    text-align: center; 
+    margin-top: 50px;
+    width: 100%; 
+ }
+.Webcategory,.Pycategory,.Recategory{
+    font-size: 27px;
+    color: #a7a9be;
+ }
+.container {
+    display: flex;
+    margin-top: 220px;
+  }
+
+.btn {
+  
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 40px;
+    font-family:"fonte";
+    font-weight: 6450;
+    display: flex;
+    align-items: center;
+    color: #fffffe;
+    position: relative;
+    bottom: 35px;
+    left: 1845px;
+    right: 15px;
+  }
+  .btn:hover {
+    box-shadow: 0 0 20px 0px #2e2e2e3a;
+  }
+  
+  .btn .icon {
+    color: #ffffff;
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    filter: drop-shadow(10px 3px 2.5px rgb(0, 0, 0));
+  }
+  .btn:hover .text {
+    transition: all 0.5s;
+    opacity: 0;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+#menu{
+  /* color: rgb(255, 246, 246); */
+  display: grid;
+  font-size: 28px;
+  place-items: center;  
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+ }
+.menu-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+.icon-container {
+  margin-bottom: 45px;
+  border-bottom: 2px solid black;
+  border-top:2px solid black;
+  text-align: center;
+  
+ }   
+a{
+  text-decoration: none;
+ }
+a:active {
+  text-decoration: none;
+ } 
+a:visited{
+  color: #fffffe;
+ }
+.fa-arrow-down{
+  color: rgb(255, 255, 255);
+  filter: drop-shadow(13px 3px 5px rgb(0, 0, 0));
+ }
+/* @ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+   }
+
+ @keyframes fadeInOut {
+  from {
+    opacity: 1;
+    transform: translateY(-10px);
+   } 
+  to {
+    opacity: 0;
+    transform: translateY(0);
+   }
+}
+.menu-hidden{
+  display: none;
+  animation: fadeInOut 0.3s ease-in-out;
+  opacity: 0.2s;
+ }
+.menu-visible{
+    position: absolute;
+    left: -100px;
+    top: 36px;
+    padding-top: 25px;
+  animation: fadeIn 0.3s ease-in-out;
+ }
+.firstTile, .secondTile, .thirdTile{
+  border: 2px solid #061722;
+  box-sizing: border-box; /* Ensure consistent box-sizing */
+  padding: 20px; /* Ensure consistent padding */
+ }
+ .firstTile:hover{
+  filter:drop-shadow(20px 3px 20px rgb(255, 255, 255));
+  background-image: url(img/spider\ web.webp);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: repeat;
+ } 
+.secondTile:hover{
+  filter:drop-shadow(20px 3px 20px rgb(84, 177, 22));
+  background-image: url(img/python\ gif.gif);
+  background-size:4.5em; 
+  background-position: center; 
+  background-repeat: repeat;
+ }
+.thirdTile:hover{
+  
+  filter:drop-shadow(20px 3px 20px rgb(255, 0, 0));
+  background-image: url(img/react\ logo.png);
+  background-size:5.5em; 
+  background-position: center; 
+  background-repeat: repeat;
+ } 
+/* falling text */
+.tileButtons{
+  width: 700px;
+  margin: 10px;
+  padding: 20px;
+ }
+.tileButtons .Webcategory,
+.tileButtons .Pycategory,
+.tileButtons .Recategory {
+    transition: transform 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+.tileButtons:hover .Webcategory,
+.tileButtons:hover .Pycategory,
+.tileButtons:hover .Recategory {
+    position: relative;
+    transform: translateY(-50px);
+}
